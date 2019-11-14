@@ -1,0 +1,671 @@
+[
+    {
+       "id":1,
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "name": "Smartphone Samsung Galaxy M30 64GB Preto 4G",
+        "image":[ 
+          "https://a-static.mlcdn.com.br/210x210/smartphone-samsung-galaxy-m30-64gb-preto-4g-4gb-ram-tela-64-cam-tripla-cam-selfie-16mp/magazineluiza/223337400/8ba73b547a7d71cc9d5f8a657af35023.jpg"
+        ],
+        "brand": {
+          "@type": "Product",
+          "name": "Samsung"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4",
+            "ratingCount": "74"
+          },
+        "offers": {
+          "@type": "AggregateOffer",
+          "lowPrice": "1034.1",
+          "highPrice": "1499",
+          "priceCurrency": "BRL",
+          "offerCount": "1"
+        },
+        "sku": "2233374",
+        "description": "Smartphone Samsung Galaxy M30 64GB Preto 4G"
+    
+    },
+    {
+       "id":2,
+       "@context": "https://schema.org/",
+       "@type": "Product",
+       "name": "Smartphone Samsung Galaxy A10 32GB Azul 4G",
+       "image": [
+         "https://a-static.mlcdn.com.br/210x210/smartphone-samsung-galaxy-a10-32gb-azul-4g-2gb-ram-62-cam-13mp-cam-selfie-5mp/magazineluiza/155552200/51c5332459d0cc5744eed09cc2df9aee.jpg"
+        ],
+       "brand": {
+         "@type": "Product",
+         "name": "Samsung"
+       },
+       "aggregateRating": {
+           "@type": "AggregateRating",
+           "ratingValue": "3",
+           "ratingCount": "22"
+         },
+       "offers": {
+         "@type": "AggregateOffer",
+         "lowPrice": "799",
+         "highPrice": "999",
+         "priceCurrency": "BRL",
+         "offerCount": "1"
+       },
+       "sku": "1555522",
+       "description": "Smartphone Samsung Galaxy A10 32GB Azul 4G",
+       "available":true
+    },
+    {
+       "id":3,
+       "@context": "https://schema.org/",
+       "@type": "Product",
+       "name": "Smartphone Motorola G7 Play 32GB Indigo 4G",
+       "image": [
+         "https://a-static.mlcdn.com.br/210x210/smartphone-motorola-g7-play-32gb-indigo-4g-2gb-ram-tela-57-cam-13mp-cam-selfie-8mp/magazineluiza/155549300/d2457e9f08834f0cbec9874e4640bbce.jpg"
+        ],
+       "brand": {
+         "@type": "Product",
+         "name": "Motorola"
+       },
+       "aggregateRating": {
+           "@type": "AggregateRating",
+           "ratingValue": "4",
+           "ratingCount": "64"
+         },
+       "offers": {
+         "@type": "AggregateOffer",
+         "lowPrice": "629.1",
+         "highPrice": "999",
+         "priceCurrency": "BRL",
+         "offerCount": "1"
+       },
+       "sku": "1555493",
+       "description": "Smartphone Motorola G7 Play 32GB Indigo 4G",
+       "available":true
+    },
+    {
+       "id":4,
+       "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "Smartphone Motorola G7 Play 32GB Ouro 4G",
+    "image": [
+      "https://a-static.mlcdn.com.br/210x210/smartphone-motorola-g7-play-32gb-ouro-4g-2gb-ram-tela-57-cam-13mp-cam-selfie-8mp/magazineluiza/155549400/07398f10a1d400d51baf2d84202b5a06.jpg"
+     ],
+    "brand": {
+      "@type": "Product",
+      "name": "Motorola"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "83"
+      },
+    "offers": {
+      "@type": "AggregateOffer",
+      "lowPrice": "629.1",
+      "highPrice": "999",
+      "priceCurrency": "BRL",
+      "offerCount": "1"
+    },
+    "sku": "1555494",
+    "description": "Smartphone Motorola G7 Play 32GB Ouro 4G",
+       "available":true
+    },
+    {
+       "id":5,
+       "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "Smartphone Samsung Galaxy A20 32GB Preto 4G",
+    "image": [
+      "https://a-static.mlcdn.com.br/210x210/smartphone-samsung-galaxy-a20-32gb-preto-4g-3gb-ram-tela-64-cam-dupla-cam-selfie-8mp/magazineluiza/221964200/194d81271aa6cc1d6724fdccd2f09f01.jpg"
+     ],
+    "brand": {
+      "@type": "Product",
+      "name": "Samsung"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "6"
+      },
+    "offers": {
+      "@type": "AggregateOffer",
+      "lowPrice": "854.1",
+      "highPrice": "1199",
+      "priceCurrency": "BRL",
+      "offerCount": "1"
+    },
+    "sku": "2219643",
+    "description": "Smartphone Samsung Galaxy A20 32GB Preto 4G",
+       "available":true
+    },
+    {
+       "id":6,
+       "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "Smartphone Samsung Galaxy A30 64GB Azul 4G - 4GB RAM 6,4” Câm. Dupla + Câm. Selfie 16MP",
+    "image": [
+      "https://a-static.mlcdn.com.br/210x210/smartphone-samsung-galaxy-a30-64gb-azul-4g-4gb-ram-64-cam-dupla-cam-selfie-16mp/webfones2/16594/0dd7585a16fa345e8e9934fbc6dd6241.jpg"
+     ],
+    "brand": {
+      "@type": "Product",
+      "name": "Samsung"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3",
+        "ratingCount": "3"
+      },
+    "offers": {
+      "@type": "AggregateOffer",
+      "lowPrice": "1129",
+      "highPrice": "1129",
+      "priceCurrency": "BRL",
+      "offerCount": "1"
+    },
+    "sku": "ck2cbejg0b",
+    "description": "Smartphone Samsung Galaxy A30 64GB Azul 4G - 4GB RAM 6,4” Câm. Dupla + Câm. Selfie 16MP",
+       "available":true
+    },
+    {
+       "id":7,
+       "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "Smartphone Samsung Galaxy M30 64GB Azul 4G",
+    "image": [
+      "https://a-static.mlcdn.com.br/210x210/smartphone-samsung-galaxy-m30-64gb-azul-4g-4gb-ram-tela-64-cam-tripla-cam-selfie-16mp/magazineluiza/223337500/74b056479d41ecbf2d521da06dedfa5c.jpg"
+     ],
+    "brand": {
+      "@type": "Product",
+      "name": "Samsung"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "74"
+      },
+    "offers": {
+      "@type": "AggregateOffer",
+      "lowPrice": "1034.1",
+      "highPrice": "1499",
+      "priceCurrency": "BRL",
+      "offerCount": "1"
+    },
+    "sku": "2233374",
+    "description": "Smartphone Samsung Galaxy M30 64GB Azul 4G",
+       "available":true
+    },
+    {
+        "id":8,
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "name": "Smartphone Samsung Galaxy A10 32GB Vermelho 4G",
+        "image": [
+          "https://a-static.mlcdn.com.br/210x210/smartphone-samsung-galaxy-a10-32gb-vermelho-4g-2gb-ram-62-cam-13mp-cam-selfie-5mp/magazineluiza/155552400/499ff1d0d60780aaa7972d5d991954c7.jpg"
+         ],
+        "brand": {
+          "@type": "Product",
+          "name": "Samsung"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "3",
+            "ratingCount": "22"
+          },
+        "offers": {
+          "@type": "AggregateOffer",
+          "lowPrice": "799",
+          "highPrice": "999",
+          "priceCurrency": "BRL",
+          "offerCount": "1"
+        },
+        "sku": "1555522",
+        "description": "Smartphone Samsung Galaxy A10 32GB Vermelho 4G",
+       "available":true
+
+    },
+    {
+        "id":9,
+        "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "Smartphone Samsung Galaxy A30 64GB Preto 4G",
+    "image": [
+      "https://a-static.mlcdn.com.br/210x210/smartphone-samsung-galaxy-a30-64gb-preto-4g-4gb-ram-64-cam-dupla-cam-selfie-16mp/magazineluiza/155551400/9a24b9cd36c2ec1985965853e56db9bf.jpg"
+     ],
+    "brand": {
+      "@type": "Product",
+      "name": "Samsung"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "15"
+      },
+    "offers": {
+      "@type": "AggregateOffer",
+      "lowPrice": "1016.1",
+      "highPrice": "1699",
+      "priceCurrency": "BRL",
+      "offerCount": "1"
+    },
+    "sku": "1555518",
+    "description": "Smartphone Samsung Galaxy A30 64GB Preto 4G",
+       "available":true
+    },
+    {
+        "id":10,
+        "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "Smartphone Samsung Galaxy J2 Core 16GB Preto",
+    "image": [
+      "https://a-static.mlcdn.com.br/210x210/smartphone-samsung-galaxy-j2-core-16gb-preto-4g-1gb-ram-tela-5-cam-8mp-cam-selfie-5mp/magazineluiza/155548800/ce0de72dbd6849c8a6e67fc80ee73a83.jpg"
+     ],
+    "brand": {
+      "@type": "Product",
+      "name": "Samsung"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "27"
+      },
+    "offers": {
+      "@type": "AggregateOffer",
+      "lowPrice": "485.1",
+      "highPrice": "799",
+      "priceCurrency": "BRL",
+      "offerCount": "1"
+    },
+    "sku": "1555488",
+    "description": "Smartphone Samsung Galaxy J2 Core 16GB Preto",
+       "available":true 
+    },
+    {
+        "id":11,
+        "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "Smartphone Motorola One Action 128GB Azul 4G",
+    "image": [
+      "https://a-static.mlcdn.com.br/210x210/smartphone-motorola-one-action-128gb-azul-4g-4gb-ram-634-cam-tripla-cam-selfie-12mp/magazineluiza/155558200/2ba430d16eb00ccd4625931691a1dc47.jpg"
+     ],
+    "brand": {
+      "@type": "Product",
+      "name": "Motorola"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "7"
+      },
+    "offers": {
+      "@type": "AggregateOffer",
+      "lowPrice": "1259.1",
+      "highPrice": "1799",
+      "priceCurrency": "BRL",
+      "offerCount": "1"
+    },
+    "sku": "1555582",
+    "description": "Smartphone Motorola One Action 128GB Azul 4G",
+       "available":true 
+    },
+    {
+        "id":12,
+        "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "Smartphone Samsung Galaxy A50 128GB Azul 4G ",
+    "image": [
+      "https://a-static.mlcdn.com.br/210x210/smartphone-samsung-galaxy-a50-128gb-azul-4g-4gb-ram-tela-64-cam-tripla-cam-selfie-25mp/magazineluiza/155558700/c32d31c31d937101fd202a15befbaa65.jpg"
+     ],
+    "brand": {
+      "@type": "Product",
+      "name": "Samsung"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "2"
+      },
+    "offers": {
+      "@type": "AggregateOffer",
+      "lowPrice": "1394.1",
+      "highPrice": "1899",
+      "priceCurrency": "BRL",
+      "offerCount": "1"
+    },
+    "sku": "1555585",
+    "description": "Smartphone Samsung Galaxy A50 128GB Azul 4G ",
+       "available":true 
+    },
+    {
+        "id":13,
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "name": "Smartphone Samsung Galaxy J4 Core 16GB Cobre 4G",
+        "image": [
+          "https://a-static.mlcdn.com.br/210x210/smartphone-samsung-galaxy-j4-core-16gb-cobre-4g-quad-core-1gb-ram-tela-6-cam-8mp-selfie-5mp/magazineluiza/155545800/31d43b9a9813933c0fc52a4a1052b126.jpg"
+         ],
+        "brand": {
+          "@type": "Product",
+          "name": "Samsung"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4",
+            "ratingCount": "12"
+          },
+        "offers": {
+          "@type": "AggregateOffer",
+          "lowPrice": "674.1",
+          "highPrice": "899",
+          "priceCurrency": "BRL",
+          "offerCount": "1"
+        },
+        "sku": "1555460",
+        "description": "Smartphone Samsung Galaxy J4 Core 16GB Cobre 4G",
+       "available":true 
+    },
+    {
+        "id":14,
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "name": "Smartphone Motorola Moto G7 Play Ouro XT1952 32GB, Tela de 5,7”, 2GB RAM e Câm. 13MP",
+        "image": [
+          "https://a-static.mlcdn.com.br/210x210/smartphone-motorola-moto-g7-play-ouro-xt1952-32gb-tela-de-57-2gb-ram-e-cam-13mp/webfones2/15965/99521e43027fadbb404e9e9880a3b4b1.jpg"
+         ],
+        "brand": {
+          "@type": "Product",
+          "name": "Motorola"
+        },
+        
+        "offers": {
+          "@type": "AggregateOffer",
+          "lowPrice": "669",
+          "highPrice": "669",
+          "priceCurrency": "BRL",
+          "offerCount": "1"
+        },
+        "sku": "fhfb47846c",
+        "description": "Smartphone Motorola Moto G7 Play Ouro XT1952 32GB, Tela de 5,7”, 2GB RAM e Câm. 13MP",
+       "available":true 
+    },
+    {
+        "id":15,
+        "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "Smartphone Samsung Galaxy J4 Core 16GB Preto 4G",
+    "image": [
+      "https://a-static.mlcdn.com.br/210x210/smartphone-samsung-galaxy-j4-core-16gb-preto-4g-quad-core-1gb-ram-tela-6-cam-8mp-selfie-5mp/magazineluiza/155545600/42cfac21978fa14a098674edae783e8e.jpg"
+     ],
+    "brand": {
+      "@type": "Product",
+      "name": "Samsung"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3",
+        "ratingCount": "26"
+      },
+    "offers": {
+      "@type": "AggregateOffer",
+      "lowPrice": "674.1",
+      "highPrice": "899",
+      "priceCurrency": "BRL",
+      "offerCount": "1"
+    },
+    "sku": "1555456",
+    "description": "Smartphone Samsung Galaxy J4 Core 16GB Preto 4G",
+       "available":true   
+    }, 
+    {
+        "id":16,
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "name": "Smartphone Samsung Galaxy A20 32GB Azul 4G",
+        "image": [
+          "https://a-static.mlcdn.com.br/210x210/smartphone-samsung-galaxy-a20-32gb-azul-4g-3gb-ram-tela-64-cam-dupla-cam-selfie-8mp/magazineluiza/221964300/8f241e09370a1acbeb67559085a95f53.jpg"
+         ],
+        "brand": {
+          "@type": "Product",
+          "name": "Samsung"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4",
+            "ratingCount": "6"
+          },
+        "offers": {
+          "@type": "AggregateOffer",
+          "lowPrice": "854.1",
+          "highPrice": "1199",
+          "priceCurrency": "BRL",
+          "offerCount": "1"
+        },
+        "sku": "2219643",
+        "description": "Smartphone Samsung Galaxy A20 32GB Azul 4G",
+       "available":true 
+    },
+    {
+        "id":17,
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "name": "Smartphone Samsung Galaxy A30 64GB Azul 4G",
+        "image": [
+          "https://a-static.mlcdn.com.br/210x210/smartphone-samsung-galaxy-a30-64gb-azul-4g-4gb-ram-64-cam-dupla-cam-selfie-16mp/magazineluiza/155551600/b04ec8aa1455a40bbc02e4f01a21ea81.jpg"
+         ],
+        "brand": {
+          "@type": "Product",
+          "name": "Samsung"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4",
+            "ratingCount": "15"
+          },
+        "offers": {
+          "@type": "AggregateOffer",
+          "lowPrice": "1016.1",
+          "highPrice": "1694",
+          "priceCurrency": "BRL",
+          "offerCount": "1"
+        },
+        "sku": "1555518",
+        "description": "Smartphone Samsung Galaxy A30 64GB Azul 4G",
+       "available":true    
+    },
+    {
+        "id":18,
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "name": "Smartphone Motorola One Action 128GB Branco 4G",
+        "image": [
+          "https://a-static.mlcdn.com.br/210x210/smartphone-motorola-one-action-128gb-branco-4g-4gb-ram-634-cam-tripla-cam-selfie-12mp/magazineluiza/155558300/22eb56661adb53b5148803901b3c9910.jpg"
+         ],
+        "brand": {
+          "@type": "Product",
+          "name": "Motorola"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4",
+            "ratingCount": "7"
+          },
+        "offers": {
+          "@type": "AggregateOffer",
+          "lowPrice": "1259.1",
+          "highPrice": "1799",
+          "priceCurrency": "BRL",
+          "offerCount": "1"
+        },
+        "sku": "1555582",
+        "description": "Smartphone Motorola One Action 128GB Branco 4G",
+       "available":true    
+    }, 
+    {
+        "id":19,
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "name": "Smartphone Motorola One Action 128GB Branco 4G",
+        "image": [
+          "https://a-static.mlcdn.com.br/210x210/smartphone-motorola-one-action-128gb-branco-4g-4gb-ram-634-cam-tripla-cam-selfie-12mp/magazineluiza/155558300/22eb56661adb53b5148803901b3c9910.jpg"
+         ],
+        "brand": {
+          "@type": "Product",
+          "name": "Motorola"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4",
+            "ratingCount": "7"
+          },
+        "offers": {
+          "@type": "AggregateOffer",
+          "lowPrice": "1259.1",
+          "highPrice": "1799",
+          "priceCurrency": "BRL",
+          "offerCount": "1"
+        },
+        "sku": "1555582",
+        "description": "Smartphone Motorola One Action 128GB Branco 4G",
+       "available":true    
+    }, 
+    {
+        "id":20,
+        "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "Smartphone Motorola G7 Play Edição Especial 32GB",
+    "image": [
+      "https://a-static.mlcdn.com.br/210x210/smartphone-motorola-g7-play-edicao-especial-32gb-indigo-2gb-ram-57-cam-13mp-cam-selfie-8mp/magazineluiza/155554400/0427a53c0d442611d87e2b69d826e865.jpg"
+     ],
+    "brand": {
+      "@type": "Product",
+      "name": "Motorola"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "7"
+      },
+    "offers": {
+      "@type": "AggregateOffer",
+      "lowPrice": "799",
+      "highPrice": "1099",
+      "priceCurrency": "BRL",
+      "offerCount": "1"
+    },
+    "sku": "1555545",
+    "description": "Smartphone Motorola G7 Play Edição Especial 32GB",
+       "available":true 
+    },
+    {
+        "id":21,
+        "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "Smartphone Samsung Galaxy A10 32GB Preto 4G 2GB RAM 6,2” Câm. 13MP + Câm. Selfie 5MP",
+    "image": [
+      "https://a-static.mlcdn.com.br/210x210/smartphone-samsung-galaxy-a10-32gb-preto-4g-2gb-ram-62-cam-13mp-cam-selfie-5mp/webfones2/16580/096d5ade04fc66d9b72844e11ec67254.jpg"
+     ],
+    "brand": {
+      "@type": "Product",
+      "name": "Samsung"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "2"
+      },
+    "offers": {
+      "@type": "AggregateOffer",
+      "lowPrice": "698",
+      "highPrice": "698",
+      "priceCurrency": "BRL",
+      "offerCount": "1"
+    },
+    "sku": "jkkc6k7d9j",
+    "description": "Smartphone Samsung Galaxy A10 32GB Preto 4G 2GB RAM 6,2” Câm. 13MP + Câm. Selfie 5MP",
+       "available":true 
+    },
+    {
+        "id":22,
+        "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "Smartphone Samsung Galaxy J2 Core 16GB Prata",
+    "image": [
+      "https://a-static.mlcdn.com.br/210x210/smartphone-samsung-galaxy-j2-core-16gb-prata-4g-1gb-ram-tela-5-cam-8mp-cam-selfie-5mp/magazineluiza/155549000/58830315b3d45e0944671a55dab4a8cb.jpg"
+     ],
+    "brand": {
+      "@type": "Product",
+      "name": "Samsung"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "16"
+      },
+    "offers": {
+      "@type": "AggregateOffer",
+      "lowPrice": "485.1",
+      "highPrice": "794",
+      "priceCurrency": "BRL",
+      "offerCount": "1"
+    },
+    "sku": "1555490",
+    "description": "Smartphone Samsung Galaxy J2 Core 16GB Prata",
+       "available":true 
+    },
+    {
+        "id":23,
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "name": "Smartphone Motorola G7 Plus 64GB Rubi 4G",
+        "image": [
+          "https://a-static.mlcdn.com.br/210x210/smartphone-motorola-g7-plus-64gb-rubi-4g-4gb-ram-tela-624-cam-dupla-cam-selfie-12mp/magazineluiza/155549600/f515585374e5b005f4746bf39883b9c2.jpg"
+         ],
+        "brand": {
+          "@type": "Product",
+          "name": "Motorola"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4",
+            "ratingCount": "40"
+          },
+        "offers": {
+          "@type": "AggregateOffer",
+          "lowPrice": "1169.1",
+          "highPrice": "1899",
+          "priceCurrency": "BRL",
+          "offerCount": "1"
+        },
+        "sku": "1555495",
+        "description": "Smartphone Motorola G7 Plus 64GB Rubi 4G",
+       "available":true 
+    }, 
+    {
+        "id":24,
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "name": "Smartphone LG K9 TV 16GB Preto 4G Quad Core",
+        "image": [
+          "https://a-static.mlcdn.com.br/210x210/smartphone-lg-k9-tv-16gb-preto-4g-quad-core-2gb-ram-tela-5-cam-8mp-cam-selfie-5mp/magazineluiza/155538800/1d3a53797f0ff981f5d111a9321d1969.jpg"
+         ],
+        "brand": {
+          "@type": "Product",
+          "name": "LG"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4",
+            "ratingCount": "34"
+          },
+        "offers": {
+          "@type": "AggregateOffer",
+          "lowPrice": "449.1",
+          "highPrice": "749",
+          "priceCurrency": "BRL",
+          "offerCount": "1"
+        },
+        "sku": "1555388",
+        "description": "Smartphone LG K9 TV 16GB Preto 4G Quad Core",
+       "available":true 
+    }
+ ]
