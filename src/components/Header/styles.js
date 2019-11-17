@@ -17,5 +17,12 @@ export const Logo = styled.h1`
 `;
 
 export const Features = styled.div`
-     
+    margin: 0 40px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    &:hover{
+      background-color: #40104c; 
+    }
+    
 `;

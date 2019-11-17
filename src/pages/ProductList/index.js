@@ -1,17 +1,20 @@
 import React from 'react';
 
  import { Container, ContainerList} from './styles';
-import ListItem from '../ListItem';
+import ListItem from '../../components/ListItem';
 import data from "../../server.json";
 
+
 export default function ProductList() {
-  console.log(data[0]);
+  
 
   return (
+    <>
     <Container>
       <ContainerList>
-        {data.map(date => <ListItem data={date}/>)}
+        {data.map(date => <ListItem key={date.id} data={date}/>)}
       </ContainerList>
     </Container>
+    </>
   );
 }

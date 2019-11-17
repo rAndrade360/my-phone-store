@@ -40,3 +40,31 @@ export const Footer = styled.footer`
   flex: 1;
   margin-top: 4px;
 `;
+
+export const ButtonAdd = styled.button`
+  border: 0;
+  background-color: #ffaa00;
+  margin-top: 10px;
+  color: #fff;
+  font-size: 16px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 4px;
+  &:hover{
+    background-color: #ffbb00;
+  }
+`;
+
+export const ButtonDel = styled.button`
+  border: 0;
+  background-color: #ff2200;
+  margin-top: 10px;
+  color: #fff;
+  font-size: 16px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 4px;
+  &:hover{
+    background-color: #ff3333;
+  }
+`;
