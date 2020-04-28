@@ -1,43 +1,58 @@
-import React, {useReducer, useState, useEffect} from 'react';
-import {initialstate, reducer} from '../../store/state';
+import React, { useState, useEffect } from "react";
+import { addItem, removeItem } from "../../store/ducks/cart/cart";
+import { useDispatch, useSelector } from "react-redux";
 
-import { Container, Picture, Description, HighPrice, LowPrice, Footer, ButtonAdd, ButtonDel } from './styles';
+import {
+  Container,
+  Picture,
+  Description,
+  HighPrice,
+  LowPrice,
+  Footer,
+  ButtonAdd,
+  ButtonDel,
+} from "./styles";
 
-
-export default function ListItem({data}) {
-  const [store, dispatch] = useReducer(reducer, initialstate);
+export default function ListItem({ data }) {
+  const store = useSelector((state) => state.cart);
   const [stored, setStored] = useState(false);
+  const dispatch = useDispatch();
 
   useEffect(() => {
-    store.items.includes(data)?setStored(true):setStored(false);
-  }, [])
-
- async function handleAdd(){
-    await dispatch({type:'add', item: data });
+    store.items.includes(data) ? setStored(true) : setStored(false);
     console.log(store);
-    setStored(true)
+  }, [store, stored, data]);
+
+  async function handleAdd() {
+    dispatch(addItem(data));
+    setStored(true);
   }
 
-async  function handleDel(){
-    await dispatch({type:'remove', item: data });
-    console.log(store);
-    setStored(false)
+  async function handleDel() {
+    dispatch(removeItem(data));
+    setStored(false);
   }
 
   return (
     <Container>
-        <Picture src={data.image} alt="Imagem celular" />
-        <Footer> 
+      <Picture src={data.image} alt="Imagem celular" />
+      <Footer>
         <Description>{data.name}</Description>
-        <HighPrice>de R$ {(data.offers.highPrice).toLocaleString('pt-BR', {style: 'currency', currency: data.offers.priceCurrency})} por</HighPrice>
-        <LowPrice>R$ {(data.offers.lowPrice).toLocaleString('pt-BR')}</LowPrice>
-        </Footer>
-        {
-          stored ?
-        <ButtonDel onClick={handleDel}>Revover do Carrinho</ButtonDel>:
+        <HighPrice>
+          de R${" "}
+          {data.offers.highPrice.toLocaleString("pt-BR", {
+            style: "currency",
+            currency: data.offers.priceCurrency,
+          })}{" "}
+          por
+        </HighPrice>
+        <LowPrice>R$ {data.offers.lowPrice.toLocaleString("pt-BR")}</LowPrice>
+      </Footer>
+      {stored ? (
+        <ButtonDel onClick={handleDel}>Remover do Carrinho</ButtonDel>
+      ) : (
         <ButtonAdd onClick={handleAdd}>Adicionar ao Carrinho</ButtonAdd>
-}
-
+      )}
     </Container>
   );
 }

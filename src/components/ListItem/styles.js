@@ -51,7 +51,7 @@ export const ButtonAdd = styled.button`
   cursor: pointer;
   border-radius: 4px;
   &:hover{
-    background-color: #ffbb00;
+    background-color: #ffee00;
   }
 `;
 

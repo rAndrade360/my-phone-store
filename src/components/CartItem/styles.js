@@ -18,3 +18,29 @@ export const Title = styled.h3`
 
 `;
 
+export const Quantity = styled.div`
+display: flex;
+flex-direction: column;
+padding:  0 50px;
+`;
+
+export const Price = styled.div`
+display: flex;
+flex-direction: column;
+padding:  0 50px;
+`;
+
+export const Value = styled.p`
+
+`;
+
+export const ButtonModify = styled.button`
+
+`;
+
+export const ButtonGroup = styled.div`
+display: flex;
+flex-direction: row;
+
+`;
+
