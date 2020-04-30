@@ -15,12 +15,16 @@ import {
 
 export default function ListItem({ data }) {
   const store = useSelector((state) => state.cart);
-  const [stored, setStored] = useState(false);
+  const [stored, setStored] = useState(store.items.includes(data));
   const dispatch = useDispatch();
 
   useEffect(() => {
-    store.items.includes(data) ? setStored(true) : setStored(false);
-    console.log(store);
+    store.items.map((item) => {
+      if (item.id === data.id) {
+        setStored(true);
+      }
+      return null;
+    });
   }, [store, stored, data]);
 
   async function handleAdd() {

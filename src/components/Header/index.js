@@ -6,12 +6,6 @@ import { useSelector } from "react-redux";
 
 export default function Header() {
   const store = useSelector((state) => state.cart);
-  // const [number, setNumber] = useState(0);
-
-  // useEffect(() => {
-  //   return () => setNumber(store.itemCount);
-  // }, [store]);
-
   return (
     <Container>
       <Link to="/">

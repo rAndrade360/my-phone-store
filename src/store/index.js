@@ -1,7 +1,14 @@
 import { combineReducers, createStore } from "redux";
 import cart from "./ducks/cart/cart";
-const rootRedux = combineReducers({
+import { persistStore, persistReducer } from "redux-persist";
+import storage from "redux-persist/lib/storage";
+const persistConfig = {
+  key: "root",
+  storage,
+};
+const rootReducer = combineReducers({
   cart,
 });
-
-export default createStore(rootRedux);
+const persistedReducer = persistReducer(persistConfig, rootReducer);
+export const store = createStore(persistedReducer);
+export const persistor = persistStore(store);
